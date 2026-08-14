@@ -76,3 +76,52 @@ nav a:hover {
   .navbar { justify-content: center; text-align: center; }
   nav { justify-content: center; gap: 20px; }
 }
+
+.hero {
+  background-image:
+    linear-gradient(90deg, rgba(255,255,255,0.75) 0%, rgba(255,255,255,0.35) 45%, rgba(255,255,255,0.05) 75%),
+    url("aics-building.jpg");
+  background-size: cover;
+  background-position: center 60%;
+  background-repeat: no-repeat;
+  padding: 90px 40px;
+  min-height: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 64px;
+  font-weight: 800;
+  color: var(--navy);
+  line-height: 1.1;
+}
+
+.hero h1 span {
+  color: #2f5fd6;
+}
+
+.hero-tagline {
+  margin: 20px 0 0;
+  font-size: 20px;
+  color: #1a2b4a;
+  line-height: 1.4;
+  max-width: 480px;
+}
+
+.hero-underline {
+  margin-top: 20px;
+  width: 60px;
+  height: 4px;
+  background: #2f5fd6;
+  border-radius: 2px;
+}
+
+@media (max-width: 700px) {
+  .hero { padding: 50px 20px; min-height: 380px; }
+  .hero h1 { font-size: 38px; text-align: center; }
+  .hero-tagline { font-size: 16px; text-align: center; max-width: 100%; }
+  .hero-underline { margin-left: auto; margin-right: auto; }
+}
