@@ -1,0 +1,78 @@
+:root{
+  --navy: #0a1e42;
+  --white: #ffffff;
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Segoe UI', Arial, sans-serif; }
+
+.navbar {
+  background: var(--navy);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 40px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo {
+  height: 54px;
+  width: 54px;
+  flex-shrink: 0;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.brand-text .title {
+  color: var(--white);
+  font-size: 26px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.brand-text .subtitle {
+  color: var(--white);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+  white-space: nowrap;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 6px;
+}
+
+nav a.active {
+  border-bottom: 2px solid var(--white);
+}
+
+nav a:hover {
+  opacity: 0.85;
+}
+
+@media (max-width: 700px) {
+  .navbar { justify-content: center; text-align: center; }
+  nav { justify-content: center; gap: 20px; }
+}
