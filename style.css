@@ -159,17 +159,7 @@ nav a:hover {
 .card-found { background: #eaf3ea; }
 .card-search { background: #f0eafb; }
 
-.card-icon {
-  font-size: 40px;
-  background: #ffffff;
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 16px;
-}
+
 .card-icon svg {
   width: 36px;
   height: 36px;
@@ -208,5 +198,39 @@ nav a:hover {
   text-align: center;
   padding: -1px 50px;
   font-size: 14px;
- 
+}
+
+/* FOR THE LOST PAGE */
+
+.lost-banner {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 10px 40px 90px;
+  min-height: 280px;
+  background:
+    url("aics-building.jpg");
+  background-size: cover;
+  background-position: center 20%;
+}
+
+.lost-banner h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+  color: var(--navy);
+}
+
+.lost-banner p {
+  margin: 0;
+  font-size: 15px;
+  color: #333;
+  max-width: 480px;
+}
+
+.lost-banner-underline {
+  margin-top: 12px;
+  width: 50px;
+  height: 3px;
+  background: #2f5fd6;
+  border-radius: 2px;
 }
