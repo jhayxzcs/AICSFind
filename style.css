@@ -205,7 +205,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   gap: 24px;
-  padding: 20px 40px 90px;
+  padding: 17px 40px 90px;
   min-height: 210px;
 }
 
@@ -241,8 +241,8 @@ nav a:hover {
 .lost-form {
   background: rgba(255, 255, 255, 0.95);
   border-radius: 14px;
-  padding: 20px 25px;
-  margin: -60px 150px 20px;
+  padding: 10px 25px;
+  margin: -62px 150px 20px;
   box-shadow: 0 4px 15px rgba(10, 30, 66, 0.10);
 }
 
@@ -260,8 +260,8 @@ nav a:hover {
 
 .form-row {
   display: flex;
-  gap: 30px;
-  margin-bottom: 12px;
+  gap: 15px;
+  margin-bottom: 6px;
 }
 
 /* Fields */
@@ -287,7 +287,7 @@ nav a:hover {
 .form-field input,
 .form-field textarea {
   width: 100%;
-  padding: 8px 10px;
+  padding: 6px 10px;
   border: 1px solid #ccd6e5;
   border-radius: 7px;
   background: #ffffff;
