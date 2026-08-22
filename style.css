@@ -150,14 +150,14 @@ nav a:hover {
 .card {
   flex: 1;
   min-width: 220px;
-  background: #eaf1fb;
+  background: #a8c6f9;
   border-radius: 14px;
   padding: 30px 24px;
-  text-align: center;
+  text-align:center;
 }
 
-.card-found { background: #eaf3ea; }
-.card-search { background: #f0eafb; }
+.card-found { background: #a7f2a7; }
+.card-search { background: #c3a7f7; }
 
 .card-icon svg {
   width: 36px;
@@ -234,19 +234,15 @@ nav a:hover {
 
 
 
-/* =========================
-   LOST ITEM DETAILS CARD
-   ========================= */
-
 .lost-form {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.75);
   border-radius: 14px;
   padding: 10px 25px;
   margin: -62px 150px 20px;
   box-shadow: 0 4px 15px rgba(10, 30, 66, 0.10);
 }
 
-/* Title */
+
 
 .lost-form h2 {
   margin: 0 0 15px;
@@ -256,7 +252,6 @@ nav a:hover {
   font-size: 22px;
 }
 
-/* Rows */
 
 .form-row {
   display: flex;
@@ -264,7 +259,7 @@ nav a:hover {
   margin-bottom: 6px;
 }
 
-/* Fields */
+
 
 .form-field {
   flex: 1;
@@ -282,7 +277,7 @@ nav a:hover {
   color: #d62828;
 }
 
-/* Inputs */
+
 
 .form-field input,
 .form-field textarea {
@@ -297,14 +292,13 @@ nav a:hover {
   outline: none;
 }
 
-/* Textarea */
 
 .form-field textarea {
   height: 70px;
   resize: vertical;
 }
 
-/* Focus */
+
 
 .form-field input:focus,
 .form-field textarea:focus {
@@ -313,9 +307,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   PHOTO UPLOAD
-   ========================= */
+
 
 .upload-label {
   display: flex;
@@ -361,10 +353,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   FORM FOOTER
-   ========================= */
-
 .form-footer {
   display: flex;
   align-items: center;
@@ -383,8 +371,6 @@ nav a:hover {
 }
 
 
-/* Submit Button */
-
 .submit-btn {
   border: none;
   border-radius: 7px;
@@ -402,9 +388,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   MOBILE
-   ========================= */
+
 
 @media (max-width: 700px) {
 
@@ -465,12 +449,9 @@ nav a:hover {
 }
 
 
-/* =========================
-   FOUND ITEM DETAILS CARD
-   ========================= */
 
 .found-form {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.75);
   border-radius: 14px;
   padding: 10px 25px;
   margin: -62px 150px 20px;
@@ -532,9 +513,7 @@ nav a:hover {
 }
 
 
-/* =========================
-   PHOTO UPLOAD (Found)
-   ========================= */
+
 
 .found-form .upload-label {
   display: flex;
@@ -580,9 +559,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   FORM FOOTER (Found)
-   ========================= */
 
 .found-form .form-footer {
   display: flex;
@@ -617,10 +593,6 @@ nav a:hover {
   opacity: 0.9;
 }
 
-
-/* =========================
-   MOBILE (Found)
-   ========================= */
 
 @media (max-width: 700px) {
 
