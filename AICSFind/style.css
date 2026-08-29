@@ -1113,6 +1113,7 @@ nav a:hover {
   margin: 20px 40px 40px;
   padding: 16px 28px;
   flex-wrap: wrap;
+  border: 2px solid #4f4c93;
 }
 
 .search-field {
@@ -1173,6 +1174,7 @@ nav a:hover {
   border-radius: 16px;
   box-shadow: 0 4px 20px rgba(0,0,0,0.06);
   padding: 24px 28px;
+  border: 2px solid #474483;
 }
 
 .results-header {
