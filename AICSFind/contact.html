@@ -33,30 +33,29 @@
 </section>
 
 <section class="contact-content">
-  <form class="contact-form">
+    <form class="contact-form" id="contactForm">
     <h2>Send Us a Message</h2>
 
     <div class="form-row">
       <div class="form-field">
         <label>Your Name <span class="required">*</span></label>
-        <input type="text" placeholder="Enter your full name" required>
+        <input type="text" name="name" placeholder="Enter your full name" required>
       </div>
       <div class="form-field">
         <label>Email Address <span class="required">*</span></label>
-        <input type="email" placeholder="Enter your email address" required>
+        <input type="email" name="email" placeholder="Enter your email address" required>
       </div>
     </div>
 
     <div class="form-row">
       <div class="form-field full-width">
         <label>Message <span class="required">*</span></label>
-        <textarea placeholder="Type your message here..." required></textarea>
+        <textarea name="message" placeholder="Type your message here..." required></textarea>
       </div>
     </div>
 
     <button type="submit" class="submit-btn">➤ Send Message</button>
   </form>
-
 
   <div class="contact-info">
     <h2>Contact Information</h2>
@@ -129,5 +128,6 @@
 <footer class="site-footer">
   <p>&copy; 2026 Asian Institute of Computer Studies. All rights reserved.</p>
 </footer>
+<script src="contact.js"></script>
 </body>
 </html>

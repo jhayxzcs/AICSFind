@@ -56,10 +56,10 @@ function filterItems() {
 
   const filtered = allItems.filter(item => {
     const matchesKeyword =
-      !keyword ||
-      item.item_name.toLowerCase().includes(keyword) ||
-      item.description.toLowerCase().includes(keyword) ||
-      item.location.toLowerCase().includes(keyword);
+  !keyword ||
+  String(item.item_name || "").toLowerCase().includes(keyword) ||
+  String(item.description || "").toLowerCase().includes(keyword) ||
+  String(item.location || "").toLowerCase().includes(keyword);
 
     const matchesCategory = !category || item.status === category;
 
