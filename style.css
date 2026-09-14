@@ -107,7 +107,7 @@ nav a:hover {
 
 .hero h1 {
   margin: 0;
-  font-size: 64px;
+  font-size: 80px;
   font-weight: 800;
   color: var(--navy);
   line-height: 1.1;
@@ -208,11 +208,12 @@ nav a:hover {
   gap: 24px;
   padding: 17px 40px 90px;
   min-height: 210px;
+  flex: 1;
 }
 
 .lost-banner h1 {
   margin: 0 0 8px;
-  font-size: 37px;
+  font-size: 50px;
   color: var(--navy);
 }
 
@@ -388,9 +389,10 @@ nav a:hover {
   .lost-banner {
    display: flex;
    align-items: center;
-   gap: 24px;
-   padding: 10px 40px 20px;
+   gap: 20px;
+   padding: 10px 40px 30px;
    min-height: 200px;
+   flex: 1;
   }
 
   .form-row {
@@ -418,11 +420,12 @@ nav a:hover {
   gap: 24px;
   padding: 17px 40px 80px;
   min-height: 210px;
+  flex: 1;
 }
 
 .found-banner h1 {
   margin: 0 0 8px;
-  font-size: 37px;
+  font-size: 50px;
   color: var(--navy);
 }
 
@@ -619,6 +622,7 @@ nav a:hover {
   gap: 40px;
   padding: 20px 40px 10px;
   flex-wrap: wrap;
+  flex: 1;
 }
 
 .about-hero-text {
@@ -714,6 +718,7 @@ nav a:hover {
   gap: 20px;
   padding: 10px 40px 18px;
   flex-wrap: wrap;
+
 }
 
 .about-card {
@@ -804,6 +809,7 @@ nav a:hover {
   gap: 10px;
   padding: 10px 40px 2px;
   flex-wrap: wrap;
+   flex: 1;
 }
 
 .contact-hero-text {
@@ -1063,6 +1069,8 @@ nav a:hover {
   gap: 24px;
   padding: 30px 40px 10px;
   flex-wrap: wrap;
+
+
 }
 
 .search-hero-icon {
@@ -1168,6 +1176,7 @@ nav a:hover {
 
 .search-results {
   padding: 0 40px 30px;
+  flex: 1;
 }
 
 .results-card {
