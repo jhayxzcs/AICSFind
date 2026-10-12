@@ -207,6 +207,7 @@ nav a:hover {
 .lost-banner h1 {
   margin: 0 0 8px;
   font-size: 65px;
+  font-weight: 800;
   color: var(--navy);
 }
 
@@ -420,6 +421,7 @@ nav a:hover {
 .found-banner h1 {
   margin: 0 0 8px;
   font-size: 65px;
+  font-weight: 800;
   color: var(--navy);
 }
 
@@ -814,7 +816,7 @@ nav a:hover {
 
 .contact-hero-text h1 {
   margin: 0;
-  font-size: 65px;
+  font-size: 70px;
   font-weight: 800;
   color: var(--navy);
   line-height: 1.15;
@@ -1075,7 +1077,7 @@ nav a:hover {
 
 .search-hero-text h1 {
   margin: 0;
-  font-size: 50px;
+  font-size: 65px;
   font-weight: 800;
   color: var(--navy);
 }
